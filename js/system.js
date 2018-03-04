@@ -5,4 +5,5 @@ var audio = new Audio('sound/mp3.mp3');
 
 var playMusic = function(){
 	audio.play();
+	audio.volume = 1.0;
 }
